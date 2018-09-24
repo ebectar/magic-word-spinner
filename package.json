@@ -1,0 +1,22 @@
+{
+  "name": "magic-spinner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebectar/magic-word-spinner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebectar/magic-word-spinner/issues"
+  },
+  "homepage": "https://github.com/ebectar/magic-word-spinner#readme",
+  "dependencies": {
+    "semantic-ui": "^2.4.0"
+  }
+}
