@@ -1,7 +1,19 @@
+
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 div {
   padding: 0.5em 0;
 }
 
-button {
-  margin: 2em;
+.spinner {
+  display:flex;
+}
+
+#spinner-text {
+  text-align: center;
+  font-size: 5em;
 }

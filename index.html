@@ -12,88 +12,90 @@
 
 <body>
   <div class="variables">
-    <div class="ui label">Background</div>
-    <div class="ui mini labeled input ">
-      <div class="ui red circular label">R</div>
-      <input type="text" id="background-r" value="" size="4">
-    </div>
-    <div class="ui mini labeled input ">
-      <div class="ui green circular label">G</div>
-      <input type="text" id="background-g" value="" size="4">
-    </div>
-    <div class="ui mini labeled input ">
-      <div class="ui blue circular label">B</div>
-      <input type="text" id="background-b" value="" size="4">
+    <div class="background">
+      <div class="ui label">Background</div>
+      <div class="ui mini labeled input">
+        <div class="ui red circular label">R</div>
+        <input type="text" class="bkgd-input" id="background-r" value="" size="4">
+      </div>
+      <div class="ui mini labeled input">
+        <div class="ui green circular label">G</div>
+        <input type="text" class="bkgd-input" id="background-g" value="" size="4">
+      </div>
+      <div class="ui mini labeled input">
+        <div class="ui blue circular label">B</div>
+        <input type="text" class="bkgd-input" id="background-b" value="" size="4">
+      </div>
     </div>
 
     <br />
 
     <div class="ui label">Text</div>
     <div class="ui mini input">
-      <input type="text" id="text" value="Hello">
+      <input type="text" id="text-input" value="Hello">
     </div>
     <br />
 
     <div class="ui label">Color 1</div>
-    <div class="ui mini labeled input ">
+    <div class="ui mini labeled input">
       <div class="ui red circular label">R</div>
-      <input type="text" id="color-1-r" value="" size="4">
+      <input type="text" id="color-1-r" value="255" size="4">
     </div>
-    <div class="ui mini labeled input ">
+    <div class="ui mini labeled input">
       <div class="ui green circular label">G</div>
-      <input type="text" id="color-1-g" value="" size="4">
+      <input type="text" id="color-1-g" value="0" size="4">
     </div>
-    <div class="ui mini labeled input ">
+    <div class="ui mini labeled input">
       <div class="ui blue circular label">B</div>
-      <input type="text" id="color-1-b" value="" size="4">
+      <input type="text" id="color-1-b" value="0" size="4">
     </div>
     <br />
 
     <div class="ui label">Color 2</div>
-    <div class="ui mini labeled input ">
+    <div class="ui mini labeled input">
       <div class="ui red circular label">R</div>
-      <input type="text" id="color-2-r" value="" size="4">
+      <input type="text" id="color-2-r" value="0" size="4">
     </div>
-    <div class="ui mini labeled input ">
+    <div class="ui mini labeled input">
       <div class="ui green circular label">G</div>
-      <input type="text" id="color-2-g" value="" size="4">
+      <input type="text" id="color-2-g" value="255" size="4">
     </div>
-    <div class="ui mini labeled input ">
+    <div class="ui mini labeled input">
       <div class="ui blue circular label">B</div>
-      <input type="text" id="color-2-b" value="" size="4">
+      <input type="text" id="color-2-b" value="0" size="4">
     </div>
     <br />
 
     <div class="ui label">Color 3</div>
-    <div class="ui mini labeled input ">
+    <div class="ui mini labeled input">
       <div class="ui red circular label">R</div>
-      <input type="text" id="color-3-r" value="" size="4">
+      <input type="text" id="color-3-r" value="0" size="4">
     </div>
-    <div class="ui mini labeled input ">
+    <div class="ui mini labeled input">
       <div class="ui green circular label">G</div>
-      <input type="text" id="color-3-g" value="" size="4">
+      <input type="text" id="color-3-g" value="0" size="4">
     </div>
-    <div class="ui mini labeled input ">
+    <div class="ui mini labeled input">
       <div class="ui blue circular label">B</div>
-      <input type="text" id="color-3-b" value="" size="4">
+      <input type="text" id="color-3-b" value="255" size="4">
     </div>
     <br />
 
     <div class="ui label">Speed</div>
-    <div class="ui mini labeled input ">
-      <input type="number" id="color-3-b" value="">
+    <div class="ui mini labeled input">
+      <input type="number" id="color-3-b" value="0.05">
     </div>
     <br />
 
     <div class="ui label">Hypotenuse</div>
-    <div class="ui mini labeled input ">
-      <input type="number" id="hyp" value="">
+    <div class="ui mini labeled input">
+      <input type="number" id="hyp" value="5">
     </div>
     <br />
 
     <div class="ui label">Blur</div>
-    <div class="ui mini labeled input ">
-      <input type="text" id="blur" value="">
+    <div class="ui mini labeled input">
+      <input type="text" id="blur" value="3">
     </div>
     <br />
 
@@ -101,6 +103,10 @@
       <button class="ui basic blue button" id="reverse">Reverse</button>
       <button class="ui basic black button" id="reverse">Transparent</button>
     </div>
+  </div>
+
+  <div class="spinner">
+    <p id="spinner-text">Hello</p>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
