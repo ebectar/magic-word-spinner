@@ -71,3 +71,10 @@ typings/
 
 # Serverless directories
 .serverless
+
+# semantic
+semantic/dist/components
+semantic/dist/themes/*
+!semantic/dist/*.js
+!semantic/dist/*.css
+!semantic/dist/themes/default/
