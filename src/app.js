@@ -15,7 +15,5 @@ function changeText() {
   spinnerText.innerText = spinnerInput.value
 }
 
-function changeTextShadow()
-
 bkgdInput.forEach((input) => input.addEventListener('input', changeBackground))
 spinnerInput.addEventListener('input', changeText)
